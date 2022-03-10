@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - SJStore</title>
+    <link rel="stylesheet" href='style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images2/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems" >
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Categories</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images2/cart.png" width="30px" height="30px">
+            <img src="images2/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div> 
+<!-------------misssing--------->
+</div>
+<!------featured categories---------> 
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images2/product-1 (2).jpg">
+                <h4>Oneplus 9 Pro</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>from ₹64,999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images2/watch (2).jpg">
+                <h4>Oneplus Wearable</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>from ₹16,999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images2/product-6 (1).jpg">
+                <h4>Oneplus TV 43inch</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>from ₹39,999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images2/product-4 (1).jpg">
+                <h4>Oneplus Buds</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>from ₹4,999.00</p>
+            </div>
+        </div>
+        <div>
+    </div>
+
+<!--------------------footer-------------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android And IOS moblie Phones</p>
+                        <div class="app-logo">
+                            <img src="images2/play-store.png">
+                            <img src="images2/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images2/l2 (1).jpg">
+                        <p>Our purpose is to sustainably Make the pleasure 
+                            and <p>Benefits Of tech Accessible to the many.</p></p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return Policy</li>
+                            <li>Join Community/Affilate</li>
+                        </ul>
+                    
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow US</h3>
+                        <ul>
+                            <li>FaceBook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                            <li>Linked In</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021- Sai Tej</p>
+            </div>
+            
+        </div>
+<!------------------js for toggle menu------>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "opx")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+            }
+        </script>
+
+</body>
+</html>
